@@ -166,3 +166,42 @@ footer {
     object-fit: cover;
     margin-bottom: 20px;
 }
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .project-card {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.light-mode header {
+    background-color: #6a0dad;
+    }
+#themeBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    background: linear-gradient(135deg, #6a0dad, #8e2de2);
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.4);
+
+    transition: all 0.3s ease;
+}
+
+#themeBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(106, 13, 173, 0.6);
+}
