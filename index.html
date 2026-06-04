@@ -3,113 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Abhinandana Susheel - AI & Web Developer Portfolio">
+    <meta name="keywords" content="portfolio, AI developer, web developer, python, robotics">
+    <meta name="author" content="Abhinandana Susheel">
+
+    <title>Abhinandana | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Portfolio</h1>
+<!-- ================= HEADER ================= -->
+<header>
+    <h1 class="logo">Portfolio</h1>
 
-        <nav>
-            <a href="#hero">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <button id="themeBtn">🌙 Dark</button>
-    </header>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#stats">Stats</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <img src="assets/images/Profile.jpeg" alt="Abhinandana" class="profile-img">
-        <h1>Hi, I'm Abhinandana Susheel</h1>
+    <button id="themeBtn">🌙 Dark Mode</button>
+</header>
 
-        <h2>B.Tech CSE (AI) Student</h2>
+<!-- ================= MAIN ================= -->
+<main>
 
-        <p>
-            Passionate about Artificial Intelligence,
-            Web Development, Robotics, and building
-            innovative digital solutions.
-        </p>
+<!-- HERO -->
+<section id="hero">
+    <img src="assets/images/Profile.jpeg"
+         alt="Profile photo of Abhinandana Susheel"
+         class="profile-img">
 
-        <a href="assets/Resume.pdf" download class="resume-btn" id="resumeBtn">
+    <h1>Hi, I'm Abhinandana Susheel</h1>
+
+    <h2 id="typing-text"></h2>
+
+    <p>
+        Passionate about Artificial Intelligence, Web Development, Robotics,
+        and building innovative digital solutions.
+    </p>
+
+    <a href="assets/Resume.pdf" download class="resume-btn">
         Download Resume
-        </a>
-    </section>
+    </a>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
 
-        <p>
-            I am a B.Tech Computer Science and Engineering
-            (Artificial Intelligence) student with a strong
-            interest in AI, software development, web
-            technologies, and robotics.
-        </p>
+    <p>
+        I am a B.Tech Computer Science and Engineering (Artificial Intelligence)
+        student with strong interest in AI, software development, web technologies,
+        and robotics.
+    </p>
 
-        <p>
-            I have experience with Scratch programming,
-            Raspberry Pi robotics, coding competitions,
-            video editing, and teaching computer skills
-            to junior students.
-        </p>
-    </section>
+    <p>
+        I have experience with Scratch programming, Raspberry Pi robotics,
+        coding competitions, video editing, and teaching computer skills.
+    </p>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
+<!-- STATS -->
+<section id="stats">
 
-        <div class="skills-container">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Python</div>
-            <div class="skill">Git</div>
-            <div class="skill">Scratch</div>
+    <div class="stat-card">
+        <h3>4+</h3>
+        <p>Years Learning Technology</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>3+</h3>
+        <p>Programming Competitions</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>10+</h3>
+        <p>Projects Built</p>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Git</div>
+        <div class="skill">Scratch</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio built using HTML, CSS, JS.</p>
+            <a href="#" class="project-btn">GitHub</a>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-                <h3>Personal Portfolio Website</h3>
-                <p>
-                    A responsive portfolio website built using
-                    HTML, CSS, and JavaScript.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Robotics Project</h3>
-                <p>
-                    Built and programmed a robotics project
-                    using Raspberry Pi and Python.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Scratch Programming Projects</h3>
-                <p>
-                    Developed educational and interactive
-                    projects for competitions and learning.
-                </p>
-            </div>
-
+        <div class="project-card">
+            <h3>Robotics Project</h3>
+            <p>Built using Raspberry Pi and Python automation.</p>
+            <a href="#" class="project-btn">GitHub</a>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
+        <div class="project-card">
+            <h3>Scratch Projects</h3>
+            <p>Interactive educational games and animations.</p>
+            <a href="#" class="project-btn">GitHub</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ACHIEVEMENTS (IMPROVED) -->
+<section id="achievements">
+
+    <h2>Achievements</h2>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            🏆 Scratch Competition Winner
+        </div>
+
+        <div class="achievement-card">
+            🚀 Little Kites District Camp
+        </div>
+
+        <div class="achievement-card">
+            🤖 Raspberry Pi Robotics
+        </div>
+
+        <div class="achievement-card">
+            👨‍🏫 Taught Coding to Juniors
+        </div>
+
+        <div class="achievement-card">
+            🎬 Video Editor & Creator
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT (FIXED) -->
+<section id="contact">
+
+    <h2>Get In Touch</h2>
+
+    <!-- Contact Form -->
+    <form class="contact-form"
+          action="https://formspree.io/f/xbdejvqd"
+          method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" placeholder="Your Message..." required></textarea>
+
+        <button type="submit">Send Message 🚀</button>
+
+    </form>
+
+    <!-- Contact Links -->
+    <div class="contact-links">
 
         <p>Email: abhi652006@gmail.com</p>
 
@@ -123,15 +198,22 @@
         <p>
             LinkedIn:
             <a href="https://www.linkedin.com/in/abhinandana-susheel/" target="_blank">
-                linkedin.com/in/abhinandana-susheel/
+                linkedin.com/in/abhinandana-susheel
             </a>
         </p>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Abhinandana Susheel. All Rights Reserved.</p>
-    </footer>
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER (FINAL) -->
+<footer>
+    <p>Made with ❤️ by Abhinandana Susheel</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>
