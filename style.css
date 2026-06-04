@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: white;
+}
+
+/* Header */
+
+header {
+    background-color: #2b003b;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+#hero h2 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Resume Button */
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #8e2de2;
+}
+
+/* About Section */
+
+#about p {
+    max-width: 800px;
+}
+
+/* Skills Section */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    min-width: 250px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #1e1e1e;
+}
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
